@@ -15,5 +15,16 @@
     <main>
     </main>
     <script src="sketch.js"></script>
+    
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./sw.js")
+      .then(() => console.log("HIGHWAY RUSH ready!"))
+      .catch(error => console.error(error));
+  });
+}
+</script>
+
   </body>
 </html>
