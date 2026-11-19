@@ -1,0 +1,13 @@
+
+{
+  "id": "./",
+  "name": "HIGHWAY RUSH",
+  "short_name": "Highway Rush",
+  "description": "An exciting racing game",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#050c16",
+  "theme_color": "#050c16"
+}
